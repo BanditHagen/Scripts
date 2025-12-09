@@ -1,0 +1,122 @@
+=== CPU ===
+
+Architecture:                            x86_64
+CPU op-mode(s):                          32-bit, 64-bit
+Address sizes:                           39 bits physical, 48 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  4
+On-line CPU(s) list:                     0-3
+Vendor ID:                               GenuineIntel
+Model name:                              Intel(R) Core(TM) i5-4278U CPU @ 2.60GHz
+CPU family:                              6
+Model:                                   69
+Thread(s) per core:                      2
+Core(s) per socket:                      2
+Socket(s):                               1
+Stepping:                                1
+CPU(s) scaling MHz:                      71%
+CPU max MHz:                             3100.0000
+CPU min MHz:                             800.0000
+BogoMIPS:                                5200.14
+Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm cpuid_fault epb pti ssbd ibrs ibpb stibp tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt dtherm ida arat pln pts vnmi md_clear flush_l1d
+Virtualization:                          VT-x
+L1d cache:                               64 KiB (2 instances)
+L1i cache:                               64 KiB (2 instances)
+L2 cache:                                512 KiB (2 instances)
+L3 cache:                                3 MiB (1 instance)
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-3
+Vulnerability Gather data sampling:      Not affected
+Vulnerability Ghostwrite:                Not affected
+Vulnerability Indirect target selection: Not affected
+Vulnerability Itlb multihit:             KVM: Mitigation: VMX disabled
+Vulnerability L1tf:                      Mitigation; PTE Inversion; VMX conditional cache flushes, SMT vulnerable
+Vulnerability Mds:                       Mitigation; Clear CPU buffers; SMT vulnerable
+Vulnerability Meltdown:                  Mitigation; PTI
+Vulnerability Mmio stale data:           Not affected
+Vulnerability Old microcode:             Not affected
+Vulnerability Reg file data sampling:    Not affected
+Vulnerability Retbleed:                  Not affected
+Vulnerability Spec rstack overflow:      Not affected
+Vulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:                Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP conditional; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                     Mitigation; Microcode
+Vulnerability Tsa:                       Not affected
+Vulnerability Tsx async abort:           Not affected
+Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspace
+
+
+=== Disk ===
+
+NAME                      MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+sda                         8:0    0   113G  0 disk 
+├─sda1                      8:1    0     1M  0 part 
+├─sda2                      8:2    0   977M  0 part /boot
+└─sda3                      8:3    0   112G  0 part 
+  ├─DarthVader--vg-root   254:0    0 106.3G  0 lvm  /
+  └─DarthVader--vg-swap_1 254:1    0   5.7G  0 lvm  [SWAP]
+sdb                         8:16   1     0B  0 disk 
+
+
+=== PCI info ===
+
+00:00.0 Host bridge: Intel Corporation Haswell-ULT DRAM Controller (rev 09)
+00:02.0 VGA compatible controller: Intel Corporation Haswell-ULT Integrated Graphics Controller (rev 09)
+00:03.0 Audio device: Intel Corporation Haswell-ULT HD Audio Controller (rev 09)
+00:14.0 USB controller: Intel Corporation 8 Series USB xHCI HC (rev 04)
+00:16.0 Communication controller: Intel Corporation 8 Series HECI #0 (rev 04)
+00:1b.0 Audio device: Intel Corporation 8 Series HD Audio Controller (rev 04)
+00:1c.0 PCI bridge: Intel Corporation 8 Series PCI Express Root Port 1 (rev e4)
+00:1c.1 PCI bridge: Intel Corporation 8 Series PCI Express Root Port 2 (rev e4)
+00:1c.2 PCI bridge: Intel Corporation 8 Series PCI Express Root Port 3 (rev e4)
+00:1c.4 PCI bridge: Intel Corporation 8 Series PCI Express Root Port 5 (rev e4)
+00:1c.5 PCI bridge: Intel Corporation 8 Series PCI Express Root Port 6 (rev e4)
+00:1f.0 ISA bridge: Intel Corporation 8 Series LPC Controller (rev 04)
+00:1f.3 SMBus: Intel Corporation 8 Series SMBus Controller (rev 04)
+02:00.0 Multimedia controller: Broadcom Inc. and subsidiaries 720p FaceTime HD Camera
+03:00.0 Network controller: Broadcom Inc. and subsidiaries BCM4360 802.11ac Dual Band Wireless Network Adapter (rev 03)
+04:00.0 SATA controller: Marvell Technology Group Ltd. 88SS9183 PCIe SSD Controller (rev 14)
+05:00.0 PCI bridge: Intel Corporation DSL5520 Thunderbolt 2 Bridge [Falcon Ridge 4C 2013]
+06:00.0 PCI bridge: Intel Corporation DSL5520 Thunderbolt 2 Bridge [Falcon Ridge 4C 2013]
+06:03.0 PCI bridge: Intel Corporation DSL5520 Thunderbolt 2 Bridge [Falcon Ridge 4C 2013]
+06:04.0 PCI bridge: Intel Corporation DSL5520 Thunderbolt 2 Bridge [Falcon Ridge 4C 2013]
+06:05.0 PCI bridge: Intel Corporation DSL5520 Thunderbolt 2 Bridge [Falcon Ridge 4C 2013]
+06:06.0 PCI bridge: Intel Corporation DSL5520 Thunderbolt 2 Bridge [Falcon Ridge 4C 2013]
+07:00.0 System peripheral: Intel Corporation DSL5520 Thunderbolt 2 NHI [Falcon Ridge 4C 2013]
+
+
+=== RAM ===
+
+               total        used        free      shared  buff/cache   available
+Mem:            7853        5676         912         638        2208        2177
+Swap:           5859         587        5272
+
+
+=== System Info ===
+
+# dmidecode 3.6
+Getting SMBIOS data from sysfs.
+SMBIOS 2.4 present.
+
+Handle 0x000C, DMI type 1, 27 bytes
+System Information
+	Manufacturer: Apple Inc.
+	Product Name: MacBookPro11,1
+	Version: 1.0
+	Serial Number: C02NREQ5G3QH
+	UUID: 44c6a559-fba1-1c5b-8fb2-e5d57713b8b4
+	Wake-up Type: Power Switch
+	SKU Number: System SKU#
+	Family: Mac
+
+Handle 0x0021, DMI type 12, 5 bytes
+System Configuration Options
+
+Handle 0x0023, DMI type 32, 20 bytes
+System Boot Information
+	Status: No errors detected
+
+
+
+=== END ===

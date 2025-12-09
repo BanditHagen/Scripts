@@ -29,7 +29,7 @@ echo
 echo "=== System Info ==="
 echo
 if [[ $EUID -ne 0 ]]; then
-	echo "This section requires sudo privileges. Rerun with sudo ,"
+	echo "This section requires sudo privileges. Rerun with sudo!"
 else
 	sudo dmidecode -t system
 fi
