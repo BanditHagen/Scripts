@@ -1,0 +1,42 @@
+=== Hashcat MD5 Cracker ==
+v7.1.2
+==========================
+Startar hashcat ...
+==================
+
+72774b742aa9e5b7dda0784cb4bded96:8969792278               
+4f5ffecb43d882bb4ada508a893c5639:2322273750               
+e9a7ffa76e7d93e5982b26b5c439f481:6605605379               
+56eabce60bb8bd547444e166346fc219:1556823722               
+f9f55ac9e6661e7c01b8e946371cb42b:1169204470               
+6d571821bbe398e874078e97b84b6d9d:6146554792               
+724c8b49faf2bcde1418e2f35607bb53:9279877905               
+eab5c3309f8493bd809eb4442577e62e:8586932462               
+72438f918ba99b45325c0aafcf3c25f8:3856521626               
+cce2a39440d2e95219b33fc2712daa40:8298148817               
+4dc287d99c9016a45e91c17bdbc8e485:0057072173               
+                                                          
+Session..........: hashcat
+Status...........: Cracked
+Hash.Mode........: 0 (MD5)
+Hash.Target......: hashes.txt
+Time.Started.....: Wed Dec 10 10:37:01 2025, (1 min, 8 secs)
+Time.Estimated...: Wed Dec 10 10:38:09 2025, (0 secs)
+Kernel.Feature...: Optimized Kernel (password length 0-55 bytes)
+Guess.Mask.......: ?d?d?d?d?d?d?d?d?d?d [10]
+Guess.Queue......: 1/1 (100.00%)
+Speed.#01........:   140.8 MH/s (14.05ms) @ Accel:1024 Loops:512 Thr:1 Vec:8
+Recovered........: 12/12 (100.00%) Digests (total), 12/12 (100.00%) Digests (new)
+Progress.........: 9922609152/10000000000 (99.23%)
+Rejected.........: 0/9922609152 (0.00%)
+Restore.Point....: 9920512/10000000 (99.21%)
+Restore.Sub.#01..: Salt:0 Amplifier:0-512 Iteration:0-512
+Candidate.Engine.: Device Generator
+Candidates.#01...: 1232088738 -> 0166150738
+Hardware.Mon.#01.: Temp:100c Util: 96%
+
+Started: Wed Dec 10 10:36:59 2025
+Stopped: Wed Dec 10 10:38:11 2025
+
+==================
+Hashcat körning slutförd! Allt OK!
