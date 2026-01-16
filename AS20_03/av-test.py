@@ -31,12 +31,11 @@ if __name__ == "__main__":
     banner_intro(29,"#Booting antivirus test#")
     clear_screen(2)  # Clear the console screen
 
-    if platform.system() == "Windows":  # Check if the OS is Windows, if not terminate the script
+    if platform.system() != "Windows":  # Check if OS is Windows, if not terminate the script
         sys.exit(f"[WARNING]: Script is intended for Windows OS only.\n[Current OS]: {platform.version()}\nTerminating Script.")
         
-    else:
-        banner_intro(23,"OS Checkup Complete")
-        clear_screen(2)  # Clear the console screen
+    banner_intro(23,"OS Checkup Complete")
+    clear_screen(2)  # Clear the console screen
     
     # Display warning message to the user
     print("[WARNING]: This action may trigger your antivirus software. Do not proceed in a production environment with central logging or monitoring without proper authorization!.\n**Verification of antivirus functionality will be performed by creating and attempting to read an EICAR test file.**\n")
