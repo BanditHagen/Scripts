@@ -1,8 +1,20 @@
-Description:
+**Description:**
 
 Bash scripts that provides a simple system checkup with option to run with
 sudo priveliege for additional information about machine.
 
-Use:
-(sudo)"./check_script.sh"
+**Use:**
+
+sudo chmod +x check_script.sh
+
+sudo ./check_script.sh
+
+**Requirements:**
+
+Linux
+
+Sudo privilege
+
+
+
 
