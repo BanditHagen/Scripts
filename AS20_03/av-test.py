@@ -31,7 +31,7 @@ if __name__ == "__main__":
     banner_intro(29,"#Booting antivirus test#")
     clear_screen(2)  # Clear the console screen
 
-    if platform.system() != "Windows":  # Check if OS is Windows, if not terminate the script
+    if platform.system() != "Windows":  # Terminate if not Windows
         sys.exit(f"[WARNING]: Script is intended for Windows OS only.\n[Current OS]: {platform.version()}\nTerminating Script.")
         
     banner_intro(23,"OS Checkup Complete")
