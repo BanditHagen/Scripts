@@ -9,6 +9,8 @@ sudo chmod +x check_script.sh
 
 sudo ./check_script.sh
 
+./check_script.sh (will work withouth privilege but returns less information)
+
 **Requirements:**
 
 Linux
